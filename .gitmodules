@@ -1,0 +1,3 @@
+[submodule "face-py-faster-rcnn"]
+	path = face-py-faster-rcnn
+	url = https://github.com/AlmasM/face-py-faster-rcnn.git
