@@ -40,4 +40,7 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   2. Run the code as in Step 3 of Installation of `face-py-faster-rcnn`  
   
 
+### Installig OpenFace
+  1. Install, scientific computing framework, [Torch](http://torch.ch/docs/getting-started.html)
+  2. Clone OpenFace, face recognition with deep neural networks, [repo](https://github.com/cmusatyalab/openface) 
 
