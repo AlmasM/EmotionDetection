@@ -8,6 +8,7 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   1. [Software requirements](#software-requirements)
   2. [Installation of Faster R-CNN](#installation-of-faster-r-cnn-based-on-face-py-faster-rcnn)
   3. [Adjusting to detect in Friends TV show](#installation-of-faster-r-cnn-friends-tv-show)
+  4. [Face_recognition package installation](#installing-face-recognition-package-using-dlib)
 
 ### Software requirements 
   1. Install `caffe` and `pycaffe`. Detailed installation instructions can be found at [Caffe: Installation](http://caffe.berkeleyvision.org/installation.html)
@@ -40,7 +41,35 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   2. Run the code as in Step 3 of Installation of `face-py-faster-rcnn`  
   
 
-### Installig OpenFace
-  1. Install, scientific computing framework, [Torch](http://torch.ch/docs/getting-started.html)
-  2. Clone OpenFace, face recognition with deep neural networks, [repo](https://github.com/cmusatyalab/openface) 
+### Installing Face Recognition package using dlib 
+  1. Install dlib using either [method 1](method-1) or (method 2)[method-2].
 
+**Method 1**
+  
+  Use procedure outlined by [PyImageSearch](http://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/)
+
+**Method 2**
+
+  Make sure you install python, [opencv](http://www.pyimagesearch.com/2016/11/28/macos-install-opencv-3-and-python-2-7/), boost, boost-python, dlib using ```brew install package_name```.
+  
+  Download [dlib](http://dlib.net/files/dlib-19.4.tar.bz2) from website
+  
+  Activate virtual environment, and in dlib directory, run ```python setup.py install``` 
+  
+  More information can be found in this [github](https://github.com/cmusatyalab/openface/issues/187)
+  
+  2. Install face_recognition package
+  
+  Make sure dlib is installed without errors, otherwise face_recognition will not run properly. Then, in your bash run
+  
+  ```bash
+  pip install face_recognition
+  ```
+  
+  3. More information about face recognition can be found [here](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html)
+  
+  4. Convenient explanation and sample explanations are given by [Adam Geitgey](https://github.com/ageitgey/face_recognition)
+
+
+  
+     
