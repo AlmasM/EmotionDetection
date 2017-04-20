@@ -43,7 +43,7 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   
 
 ### Installing Face Recognition package using dlib 
-  1. Install dlib using either [method 1](method-1) or (method 2)[method-2].
+  1. Install dlib using either [method 1](method-1) or [method 2](method-2).
 
 **Method 1**
   
