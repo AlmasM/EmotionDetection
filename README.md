@@ -9,6 +9,7 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   2. [Installation of Faster R-CNN](#installation-of-faster-r-cnn-based-on-face-py-faster-rcnn)
   3. [Adjusting to detect in Friends TV show](#installation-of-faster-r-cnn-friends-tv-show)
   4. [Face_recognition package installation](#installing-face-recognition-package-using-dlib)
+  5. [Run Face_recognition package](#run-face-recognition-package)
 
 ### Software requirements 
   1. Install `caffe` and `pycaffe`. Detailed installation instructions can be found at [Caffe: Installation](http://caffe.berkeleyvision.org/installation.html)
@@ -71,5 +72,14 @@ This repository contains source files from two repositories: [face-py-faster-rcn
   4. Convenient explanation and sample explanations are given by [Adam Geitgey](https://github.com/ageitgey/face_recognition)
 
 
+ ### Run Face Recognition Package ###
+  
+  1. Copy face_recog folder 
+  2. In the get_dir.py file, provide 3 paths. 
+  
+    2.1 rootDir - known faces (i.e. faces of characters: Rachel, Ross,  Monica, etc)
+    2.2 unknownDir - location of pictures where you need to recognize faces 
+    2.3 newDir - location where to store new, evaluated pictures
+  
   
      
