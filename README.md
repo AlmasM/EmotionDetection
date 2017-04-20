@@ -74,8 +74,8 @@ This repository contains source files from two repositories: [face-py-faster-rcn
 
  ### Run Face Recognition Package ###
   
-  1. Copy face_recog folder 
-  2. In the get_dir.py file, provide 3 paths. 
+  1. Copy get_dir.py file
+  2. Inside the get_dir.py file provide 3 paths. 
   
     2.1 rootDir - known faces (i.e. faces of characters: Rachel, Ross,  Monica, etc)
     2.2 unknownDir - location of pictures where you need to recognize faces 
