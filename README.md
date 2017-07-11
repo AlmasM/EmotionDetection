@@ -43,7 +43,10 @@ This repository contains source files from two repositories: [face-py-faster-rcn
     1.3 plt.savefig() in the vis_detections() method
   2. Run the code as in Step 3 of Installation of `face-py-faster-rcnn`  
   
-
+  **General Note: **
+  
+  After updating the directory names, if you get 'asType' error, it means that directory isn't being read properly. In other words, recheck by asserting or printing directories you visit.
+  
 ### Installing Face Recognition package using dlib 
   1. Install dlib using either Method 1 or Method 2.
 
