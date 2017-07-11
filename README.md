@@ -24,6 +24,8 @@ This repository contains source files from two repositories: [face-py-faster-rcn
 
 **Note 2:** `Face-py-faster-rcnn` uses WIDER data set to train the model. The output should be .caffemodel extension
 
+**Note 3:** Make sure to download the package Faster RCNN package 'recursively'. 
+
   2. To test the model, the tutorial uses [FDDB](http://vis-www.cs.umass.edu/fddb/index.html#download) provided by UMass. So, if you are using pre-trained model, there is no need to download WIDER data set (make sure you adjust code accordingly).
   3. If all the steps are executed without errors, you can run the code on dataset:
   ```Shell
